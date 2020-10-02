@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>ClearSky Letting</title>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="header">
+          <div class="brand">
+            <button onClick="openMenu()">
+              &#9776;
+            </button>
+            <a href="index.html">ClearSky Letting</a>
+          </div>
+          <div class="header-links">
+            <a href="fav.html">Favourites</a>
+            <a href="signin.html">Sign In</a>
+        </header>
+        <aside class="sidebar">
+          <h3>Listings<h3>
+            <button class="sidebar-close-button" onClick="closeMenu()">x</button>
+            <ul>
+              <li>
+                <a href="index.html">For Sale</a>
+              <li>
+              <li>
+                <a href="index.html">For Rent</a>
+              <li>
+            </ul>
+
+        </aside>
+        <main class="main">
+          <div class="content">
+            <ul class="propertys">
+                <li>
+                  <div class="property">
+                    <img class="property-image" src="images/home.jpg" alt="home">
+                    <div class="property-location">
+                      <a href="property.html">Location</a>
+                    </div>
+                    <div class="property-bedroom">Bedrooms</div>
+                    <div class="property-price">Price</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="property">
+                    <img class="property-image" src="images/home.jpg" alt="home">
+                    <div class="property-location">
+                      <a href="property.html">Location</a>
+                    </div>
+                    <div class="property-bedroom">Bedrooms</div>
+                    <div class="property-price">Price</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="property">
+                    <img class="property-image" src="images/home.jpg" alt="home">
+                    <div class="property-location">
+                      <a href="property.html">Location</a>
+                    </div>
+                    <div class="property-bedroom">Bedrooms</div>
+                    <div class="property-price">Price</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="property">
+                    <img class="property-image" src="images/home.jpg" alt="home">
+                    <div class="property-location">
+                      <a href="property.html">Location</a>
+                    </div>
+                    <div class="property-bedroom">Bedrooms</div>
+                    <div class="property-price">Price</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="property">
+                    <img class="property-image" src="images/home.jpg" alt="home">
+                    <div class="property-location">
+                      <a href="property.html">Location</a>
+                    </div>
+                    <div class="property-bedroom">Bedrooms</div>
+                    <div class="property-price">Price</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="property">
+                    <img class="property-image" src="images/home.jpg" alt="home">
+                    <div class="property-location">
+                      <a href="property.html">Location</a>
+                    </div>
+                    <div class="property-bedroom">Bedrooms</div>
+                    <div class="property-price">Price</div>
+                  </div>
+                </li>
+            </ul>
+          </div>
+        </main>
+        <footer class="footer">John Taggart</footer>
+    </div>
+    <script>
+    function openMenu() {
+    document.querySelector(".sidebar").classList.add("open");
+    }
+    function closeMenu() {
+      document.querySelector(".sidebar").classList.remove("open")
+    }
+    </script>
+</body>
+
+</html>
